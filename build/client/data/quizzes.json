@@ -1,0 +1,119 @@
+[
+  {
+    "id": "quiz-satuan",
+    "subjectId": "fisika",
+    "lessonId": "satuan",
+    "title": "Kuis Satuan dan Besaran",
+    "description": "Uji pemahaman tentang satuan dan besaran dalam fisika",
+    "timeLimit": 480,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Apa perbedaan antara besaran pokok dan besaran turunan?",
+        "options": [
+          "Besaran pokok adalah besaran dasar, sedangkan besaran turunan adalah besaran yang diturunkan dari besaran pokok",
+          "Besaran pokok adalah besaran yang diturunkan dari besaran turunan, sedangkan besaran turunan adalah besaran dasar",
+          "Besaran pokok dan besaran turunan adalah sama",
+          "Besaran pokok adalah besaran yang tidak dapat diukur, sedangkan besaran turunan adalah besaran yang dapat diukur"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Besaran pokok adalah besaran dasar yang tidak diturunkan dari besaran lain, sedangkan besaran turunan adalah besaran yang diturunkan dari besaran pokok."
+      },
+      {
+        "id": 2,
+        "question": "Kuat Arus Listrik merupakan besaran apa dan apa satuannya?",
+        "options": [
+          "Besaran Turunan, Ampere (A)",
+          "Besaran Pokok, Ampere (A)",
+          "Besaran Turunan, Volt (V)",
+          "Besaran Pokok, Volt (V)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kuat Arus Listrik adalah besaran pokok dengan satuan Ampere (A)."
+      },
+      {
+        "id": 3,
+        "question": "Untuk mengukur sebuah berat kering dari sebuah benda, maka besaran dan satuan yang digunakan adalah?",
+        "options": [
+          "Massa, Kilogram (kg)",
+          "Berat, Newton (N)",
+          "Panjang, Meter (m)",
+          "Energi, Joule (J)"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Berat kering diukur menggunakan besaran pokok massa dengan satuan kilogram (kg)."
+      },
+      {
+        "id": 4,
+        "question": "Alat dibawah ini yang digunakan untuk mengukur besaran panjang adalah?",
+        "options": ["Timbangan", "Stopwatch", "Penggaris", "Termometer"],
+        "correctAnswer": 2,
+        "explanation": "Penggaris digunakan untuk mengukur besaran panjang."
+      },
+      {
+        "id": 5,
+        "question": "Apakah kecepatan merupakan besaran pokok atau besaran turunan?",
+        "options": [
+          "Besaran Pokok",
+          "Besaran Turunan",
+          "Keduanya",
+          "Tidak keduanya"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kecepatan adalah besaran turunan karena merupakan perubahan posisi terhadap waktu."
+      }
+    ]
+  },
+  {
+    "id": "kinematika-gerak-linear",
+    "subjectId": "fisika",
+    "lessonId": "kinematika-gerak-linear",
+    "title": "Kuis Kinematika Gerak Linear",
+    "description": "Uji pemahaman tentang konsep gerak lurus beraturan dan gerak lurus berubah beraturan",
+    "timeLimit": 600,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Sebuah mobil bergerak dengan kecepatan konstan 10 m/s. Berapa jarak yang ditempuh mobil tersebut dalam waktu 5 detik?",
+        "options": ["125 m", "100 m", "75 m", "50 m"],
+        "correctAnswer": 3,
+        "explanation": "Karena tidak ada percepatan saat kecepatan konstan maka kita gunakan rumus jarak sederhana yaitu s = vt sehingga s = vt = 10.5 = 50 m"
+      },
+      {
+        "id": 2,
+        "question": "Diketahui sebuah benda bergerak dipercepatan 2 m/s² tanpa kecepatan awal. Tentukan jarak yang ditempuh benda tersebut setelah 4 detik!",
+        "options": ["16 m", "32 m", "8 m", "24 m"],
+        "correctAnswer": 0,
+        "explanation": "Rumus jarak pada GLBB adalah s = vt + 1/2 at². Karena kecepatan awal tidak ada maka v = 0. Sehingga rumus <br> s = 1/2 at² = 1/2 . 2 . (4)² = 16 m"
+      },
+      {
+        "id": 3,
+        "question": "Jika benda bergerak 100 m dalam waktu 20 s, berapakah kecepatannya?",
+        "options": ["2 m/s", "5 m/s", "10 m/s", "20 m/s"],
+        "correctAnswer": 1,
+        "explanation": "v = s/t = 100/20 = 5 m/s"
+      },
+      {
+        "id": 4,
+        "question": "Percepatan adalah?",
+        "options": [
+          "Perubahan jarak",
+          "Perubahan waktu",
+          "Perubahan kecepatan per waktu",
+          "Perubahan massa"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Percepatan adalah perubahan kecepatan per satuan waktu"
+      },
+      {
+        "id": 5,
+        "question": "Pada GLB, percepatan benda adalah?",
+        "options": ["-1 m/s²", "0 m/s²", "1 m/s²", "9.8 m/s²"],
+        "correctAnswer": 1,
+        "explanation": "Pada GLB, percepatan = 0 karena kecepatan tetap"
+      }
+    ]
+  }
+]
