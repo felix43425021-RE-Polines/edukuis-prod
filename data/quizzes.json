@@ -1,0 +1,306 @@
+[
+  {
+    "id": "quiz-satuan",
+    "subjectId": "fisika",
+    "lessonId": "satuan",
+    "title": "Kuis Satuan dan Besaran",
+    "description": "Uji pemahaman tentang satuan dan besaran dalam fisika",
+    "timeLimit": 480,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Apa perbedaan antara besaran pokok dan besaran turunan?",
+        "options": [
+          "Besaran pokok adalah besaran dasar, sedangkan besaran turunan adalah besaran yang diturunkan dari besaran pokok",
+          "Besaran pokok adalah besaran yang diturunkan dari besaran turunan, sedangkan besaran turunan adalah besaran dasar",
+          "Besaran pokok dan besaran turunan adalah sama",
+          "Besaran pokok adalah besaran yang tidak dapat diukur, sedangkan besaran turunan adalah besaran yang dapat diukur"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Besaran pokok adalah besaran dasar yang tidak diturunkan dari besaran lain, sedangkan besaran turunan adalah besaran yang diturunkan dari besaran pokok."
+      },
+      {
+        "id": 2,
+        "question": "Kuat Arus Listrik merupakan besaran apa dan apa satuannya?",
+        "options": [
+          "Besaran Turunan, Ampere (A)",
+          "Besaran Pokok, Ampere (A)",
+          "Besaran Turunan, Volt (V)",
+          "Besaran Pokok, Volt (V)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kuat Arus Listrik adalah besaran pokok dengan satuan Ampere (A)."
+      },
+      {
+        "id": 3,
+        "question": "Untuk mengukur ukuran jumlah materi dari sebuah benda, maka besaran dan satuan yang digunakan adalah?",
+        "options": [
+          "Massa, Kilogram (kg)",
+          "Berat, Newton (N)",
+          "Panjang, Meter (m)",
+          "Energi, Joule (J)"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Jumlah materi diukur menggunakan besaran pokok massa dengan satuan kilogram (kg)."
+      },
+      {
+        "id": 4,
+        "question": "Alat dibawah ini yang digunakan untuk mengukur besaran panjang adalah?",
+        "options": ["Timbangan", "Stopwatch", "Penggaris", "Termometer"],
+        "correctAnswer": 2,
+        "explanation": "Penggaris digunakan untuk mengukur besaran panjang."
+      },
+      {
+        "id": 5,
+        "question": "Apakah kecepatan merupakan besaran pokok atau besaran turunan?",
+        "options": [
+          "Besaran Pokok",
+          "Besaran Turunan",
+          "Keduanya",
+          "Tidak keduanya"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kecepatan adalah besaran turunan karena merupakan perubahan posisi terhadap waktu."
+      }
+    ]
+  },
+  {
+    "id": "kinematika-gerak-linear",
+    "subjectId": "fisika",
+    "lessonId": "kinematika-gerak-linear",
+    "title": "Kuis Kinematika Gerak Linear",
+    "description": "Uji pemahaman tentang konsep gerak lurus beraturan dan gerak lurus berubah beraturan",
+    "timeLimit": 1800,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Sebuah mobil bergerak dengan kecepatan konstan 10 m/s. Berapa jarak yang ditempuh mobil tersebut dalam waktu 5 detik?",
+        "options": ["125 m", "100 m", "75 m", "50 m"],
+        "correctAnswer": 3,
+        "explanation": "Karena tidak ada percepatan saat kecepatan konstan maka kita gunakan rumus jarak sederhana yaitu s = vt sehingga s = vt = 10.5 = 50 m"
+      },
+      {
+        "id": 2,
+        "question": "Diketahui sebuah benda bergerak dengan percepatan 2 m/s² tanpa kecepatan awal. Tentukan jarak yang ditempuh benda tersebut setelah 4 detik!",
+        "options": ["16 m", "32 m", "8 m", "24 m"],
+        "correctAnswer": 0,
+        "explanation": "Rumus jarak pada GLBB adalah s = vt + 1/2 at². Karena kecepatan awal tidak ada maka v = 0. Sehingga vt dihilangkan karena bernilai 0, rumus yang digunakan menjadi s = 1/2 at² = 1/2 . 2 . (4)² = 16 m"
+      },
+      {
+        "id": 3,
+        "question": "Jika benda bergerak 100 m dalam waktu 20 s, berapakah kecepatannya?",
+        "options": ["2 m/s", "5 m/s", "10 m/s", "20 m/s"],
+        "correctAnswer": 1,
+        "explanation": "Karena percepatan tidak diketahui maka dapat dianggap benda bergerak dengan kecepatan konstan, sehingga bisa digunakan rumus v = s/t = 100/20 = 5 m/s"
+      },
+      {
+        "id": 4,
+        "question": "Jika sebuah benda bergerak dengan percepatan konstan 5 m/s², tentukan kecepatan benda saat 3 detik bergerak!",
+        "options": ["30 m/s", "22.5 m/s", "15 m/s", "7.5 m/s"],
+        "correctAnswer": 2,
+        "explanation": "Karena benda tidak memiliki kecepatan awal, maka kecepatan tepat setelah 3 detik adalah v = at = 5 . 3 = 15 m/s"
+      },
+      {
+        "id": 5,
+        "question": "Mobil bergerak tanpa kecepatan awal dan percepatan 2 m/s² selama 5 detik dan 10 detik kemudian mobil tersebut berhenti. Berapakah perlambatan yang dialami mobil tersebut?",
+        "options": ["-1 m/s²", "1 m/s²", "-1.5 m/s²", "1.5 m/s²"],
+        "correctAnswer": 1,
+        "explanation": "Kecepatan mobil setelah 5 detik adalah v = at = 2 . 5 = 10 m/s. Karena mobil berhenti dalam waktu 10 detik, maka perlambatan yang dialami adalah a = v/t = -1 m/s². Namun karena perlambatan dinyatakan sebagai nilai positif, maka jawabannya adalah 1 m/s². Note: Meskipun perlambatan bernilai positif, namun arah perlambatan berlawanan dengan arah gerak sehingga nilai percepatannya negatif."
+      }
+    ]
+  },
+  {
+    "id": "kinematika-gerak-parabola",
+    "subjectId": "fisika",
+    "lessonId": "kinematika-gerak-parabola",
+    "title": "Kuis Kinematika Gerak Parabola",
+    "description": "Uji pemahaman tentang konsep gerak parabola dan penerapannya",
+    "timeLimit": 1800,
+    "passingScore": 50,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Sebuah bola dilempar dengan kecepatan awal 20 m/s pada sudut 30° terhadap tanah. Berapakah jarak horizontal maksimum yang dapat dicapai bola tersebut? (g = 10 m/s²)",
+        "options": ["36.64 m", "35.64 m", "34.64 m", "33.64 m"],
+        "correctAnswer": 2,
+        "explanation": "Hal yang pertama kali harus dilakukan adalah menghitung waktu tempuh bola, cari waktu saat bola dipuncak dengan rumus t = (V0 sin θ) / g = (20 sin 30°) / 10 = 1 detik. Maka untuk mencari t maks = t puncak x 2 = 2 detik, didapat total waktu tempuh adalah 2 detik. Selanjutnya hitung kecepatan horizontal dengan rumus Vx = v0 cos θ = 20 cos 30° = 17.32 m/s. Karena kecepatan horizontal konstan maka jarak horizontal maksimum dapat dihitung dengan rumus s = Vx  x t = 17.32  x 2 = 34.64 m."
+      },
+      {
+        "id": 2,
+        "question": "Sebuah bola dilempar dengan kecepatan awal 40 m/s pada sudut 30° terhadap tanah. Berapakah ketinggian maksimum yang dapat dicapai bola tersebut? (g = 10 m/s²)",
+        "options": ["10 m", "20 m", "30 m", "40 m"],
+        "correctAnswer": 1,
+        "explanation": "Hal yang pertama kali harus dilakukan adalah menghitung waktu tempuh bola, cari waktu saat bola dipuncak dengan rumus t = (V0 sin θ) / g = (40 sin 30°) / 10 = 2 detik. Kemudian hitung kecepatan vertikal mula-mula dengan rumus Vy = V0 sin θ = 40 sin 30° = 20 m/s. Selanjutnya hitung ketinggian maksimum dengan rumus h = Vy  x t - 1/2 g t² = 20  x 2 - 1/2  x 10  x (2)² = 20 m. Tanda negatif pada rumus karena arah percepatan gravitasi berlawanan dengan arah gerak bola."
+      },
+      {
+        "id": 3,
+        "question": "Tentukan nilai Vy dan Vx mula-mula bila sebuah bola dilempar dengan kecepatan awal 50 m/s pada sudut 60° terhadap tanah!",
+        "options": [
+          "Vx = 25 m/s, Vy = 25√3 m/s",
+          "Vx = 25 m/s, Vy = 25√2 m/s",
+          "Vx = 25√3 m/s, Vy = 25 m/s",
+          "Vx = 25√2 m/s, Vy = 25 m/s"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Vx = V0 cos θ = 50 cos 60° = 25 m/s dan Vy = V0 sin θ = 50 sin 60° = 25√3 m/s"
+      },
+      {
+        "id": 4,
+        "question": "Andi melempar sebuah bola dari atas gedung yang memiliki ketinggian 50 m dengan kecepatan awal 30 m/s pada sudut 30° terhadap garis horizontal. Berapakah ketinggian bola saat berada di titik puncak? (g = 10 m/s²)",
+        "options": ["64.25 m", "63.25 m", "62.5 m", "61.25 m"],
+        "correctAnswer": 3,
+        "explanation": "Untuk mencari ketinggian bola pada titik puncak, pertama kita hitung kecepatan vertikal mula-mula dengan rumus Vy = V0 sin θ = 30 sin 30° = 15 m/s. Kemudian hitung waktu untuk mencapai titik puncak dengan rumus t = Vy / g = 15 / 10 = 1.5 detik. Selanjutnya hitung ketinggian tambahan yang dicapai bola dengan rumus h = Vy x t - 1/2 g t² = 15 x 1.5 - 1/2 x 10 x (1.5)² = 11.25 m. Jadi, ketinggian bola saat berada di titik puncak adalah ketinggian gedung ditambah ketinggian tambahan, yaitu 50 m + 11.25 m = 61.25 m."
+      }
+    ]
+  },
+  {
+    "id": "kinematika-gerak-rotasi",
+    "subjectId": "fisika",
+    "lessonId": "kinematika-gerak-rotasi",
+    "title": "Kuis Kinematika Gerak Rotasi",
+    "description": "Uji pemahaman tentang konsep gerak rotasi, kecepatan sudut, dan gaya sentripetal",
+    "timeLimit": 1200,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Sebuah roda berputar dengan kecepatan sudut 10 rad/s. Jika jari-jari roda adalah 0.5 m, berapakah kecepatan linear titik di tepi roda?",
+        "options": ["2.5 m/s", "5 m/s", "10 m/s", "20 m/s"],
+        "correctAnswer": 1,
+        "explanation": "Kecepatan linear dihitung dengan rumus v = rω = 0.5 x 10 = 5 m/s"
+      },
+      {
+        "id": 2,
+        "question": "Sebuah benda bergerak melingkar dengan periode 4 detik. Berapakah frekuensi putaran benda tersebut?",
+        "options": ["0.25 Hz", "0.5 Hz", "2 Hz", "4 Hz"],
+        "correctAnswer": 0,
+        "explanation": "Frekuensi adalah kebalikan dari periode, f = 1/T = 1/4 = 0.25 Hz"
+      },
+      {
+        "id": 3,
+        "question": "Jika sebuah benda melakukan 5 putaran dalam waktu 10 detik, berapakah kecepatan sudutnya?",
+        "options": ["π rad/s", "2π rad/s", "5π rad/s", "10π rad/s"],
+        "correctAnswer": 0,
+        "explanation": "Total sudut yang ditempuh adalah 5 x 2π = 10π radian. Kecepatan sudut ω = θ/t = 10π/10 = π rad/s"
+      },
+      {
+        "id": 4,
+        "question": "Sebuah mobil bermassa 1000 kg bergerak melingkar dengan kecepatan 20 m/s pada lintasan dengan jari-jari 50 m. Berapakah gaya sentripetal yang bekerja pada mobil?",
+        "options": ["400 N", "4000 N", "8000 N", "10000 N"],
+        "correctAnswer": 2,
+        "explanation": "Gaya sentripetal F = mv²/r = 1000 x (20)² / 50 = 1000 x 400 / 50 = 8000 N"
+      },
+      {
+        "id": 5,
+        "question": "Sebuah benda bergerak melingkar dengan jari-jari 2 m dan kecepatan sudut 3 rad/s. Berapakah percepatan sentripetalnya?",
+        "options": ["6 m/s²", "12 m/s²", "18 m/s²", "36 m/s²"],
+        "correctAnswer": 2,
+        "explanation": "Percepatan sentripetal a = ω²r = (3)² x 2 = 9 x 2 = 18 m/s²"
+      }
+    ]
+  },
+  {
+    "id": "dinamika-gerak-linear",
+    "subjectId": "fisika",
+    "lessonId": "dinamika-gerak-linear",
+    "title": "Kuis Dinamika Gerak Linear",
+    "description": "Uji pemahaman tentang hukum Newton, gaya, dan penerapannya",
+    "timeLimit": 2400,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Sebuah benda bermassa 10 kg diberi gaya 50 N. Berapakah percepatan yang dialami benda tersebut?",
+        "options": ["0.5 m/s²", "5 m/s²", "50 m/s²", "500 m/s²"],
+        "correctAnswer": 1,
+        "explanation": "Menggunakan Hukum II Newton: a = F/m = 50/10 = 5 m/s²"
+      },
+      {
+        "id": 2,
+        "question": "Sebuah benda bermassa 5 kg berada di atas bidang datar dengan koefisien gesek kinetis 0.2. Jika percepatan gravitasi 10 m/s², berapakah gaya gesek yang bekerja saat benda bergerak?",
+        "options": ["1 N", "5 N", "10 N", "50 N"],
+        "correctAnswer": 2,
+        "explanation": "Gaya gesek kinetis f = μₖN. Gaya normal N = mg = 5 x 10 = 50 N. Jadi f = 0.2 x 50 = 10 N"
+      },
+      {
+        "id": 3,
+        "question": "Dua buah gaya masing-masing 12 N dan 5 N bekerja saling tegak lurus pada sebuah benda. Berapakah resultan kedua gaya tersebut?",
+        "options": ["7 N", "13 N", "17 N", "60 N"],
+        "correctAnswer": 1,
+        "explanation": "Karena kedua gaya tegak lurus, resultan dihitung dengan teorema Pythagoras: F = √(12² + 5²) = √(144 + 25) = √169 = 13 N"
+      },
+      {
+        "id": 4,
+        "question": "Sebuah benda bermassa 20 kg ditarik dengan gaya 100 N pada bidang datar. Jika gaya gesek yang bekerja adalah 20 N, berapakah percepatan benda?",
+        "options": ["1 m/s²", "2 m/s²", "4 m/s²", "5 m/s²"],
+        "correctAnswer": 2,
+        "explanation": "Gaya resultan ΣF = 100 - 20 = 80 N (gaya tarik dikurangi gaya gesek). Percepatan a = ΣF/m = 80/20 = 4 m/s²"
+      },
+      {
+        "id": 5,
+        "question": "Manakah pernyataan yang benar mengenai Hukum III Newton?",
+        "options": [
+          "Gaya aksi lebih besar dari gaya reaksi",
+          "Gaya aksi dan reaksi bekerja pada benda yang sama",
+          "Gaya aksi dan reaksi sama besar tetapi berlawanan arah",
+          "Gaya aksi terjadi lebih dulu daripada gaya reaksi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Hukum III Newton menyatakan bahwa gaya aksi dan reaksi sama besar, berlawanan arah, dan bekerja pada benda yang berbeda. Keduanya terjadi bersamaan."
+      },
+      {
+        "id": 6,
+        "question": "Sebuah benda bermassa 8 kg berada pada bidang miring dengan sudut 30° terhadap horizontal. Jika g = 10 m/s² dan tidak ada gaya gesek, berapakah percepatan benda saat meluncur ke bawah?",
+        "options": ["4 m/s²", "5 m/s²", "8 m/s²", "10 m/s²"],
+        "correctAnswer": 1,
+        "explanation": "Komponen gaya berat searah bidang miring adalah F = mg sin θ = 8 x 10 x sin 30° = 8 x 10 x 0.5 = 40 N. Percepatan a = F/m = 40/8 = 5 m/s²"
+      }
+    ]
+  },
+  {
+    "id": "listrik-statis",
+    "subjectId": "fisika",
+    "lessonId": "listrik-statis",
+    "title": "Kuis Listrik Statis",
+    "description": "Uji pemahaman tentang muatan listrik, gaya Coulomb, medan listrik, dan potensial listrik",
+    "timeLimit": 1200,
+    "passingScore": 60,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Dua muatan masing-masing +2 μC dan +3 μC terpisah sejauh 30 cm. Berapakah gaya Coulomb yang bekerja antara kedua muatan? (k = 9 x 10⁹ N·m²/C²)",
+        "options": ["0.6 N", "0.06 N", "6 N", "60 N"],
+        "correctAnswer": 0,
+        "explanation": "Konversi: 2 μC = 2 x 10⁻⁶ C, 3 μC = 3 x 10⁻⁶ C, 30 cm = 0.3 m. F = k(q₁q₂)/r² = (9 x 10⁹ x 2 x 10⁻⁶ x 3 x 10⁻⁶) / (0.3)² = 54 x 10⁻³ / 0.09 = 0.6 N"
+      },
+      {
+        "id": 2,
+        "question": "Sebuah muatan +4 x 10⁻⁶ C menghasilkan medan listrik pada jarak 2 m dari muatan tersebut. Berapakah kuat medan listrik pada titik tersebut? (k = 9 x 10⁹ N·m²/C²)",
+        "options": [
+          "9 x 10³ N/C",
+          "18 x 10³ N/C",
+          "36 x 10³ N/C",
+          "72 x 10³ N/C"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kuat medan listrik E = kQ/r² = (9 x 10⁹ x 4 x 10⁻⁶) / (2)² = 36 x 10³ / 4 = 9 x 10³ N/C"
+      },
+      {
+        "id": 3,
+        "question": "Potensial listrik pada suatu titik yang berjarak 3 m dari muatan +6 x 10⁻⁶ C adalah? (k = 9 x 10⁹ N·m²/C²)",
+        "options": ["18 x 10³ V", "27 x 10³ V", "54 x 10³ V", "162 x 10³ V"],
+        "correctAnswer": 0,
+        "explanation": "Potensial listrik V = kQ/r = (9 x 10⁹ x 6 x 10⁻⁶) / 3 = 54 x 10³ / 3 = 18 x 10³ V = 18 kV"
+      },
+      {
+        "id": 4,
+        "question": "Usaha yang diperlukan untuk memindahkan muatan 5 x 10⁻³ C dari titik A dengan potensial 100 V ke titik B dengan potensial 300 V adalah?",
+        "options": ["0.5 J", "1 J", "1.5 J", "2 J"],
+        "correctAnswer": 1,
+        "explanation": "Usaha W = qΔV = q(VB - VA) = 5 x 10⁻³ x (300 - 100) = 5 x 10⁻³ x 200 = 1 J"
+      }
+    ]
+  }
+]
